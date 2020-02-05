@@ -2,12 +2,8 @@ let x = 3
 let y= 17
 
 
-if (x == 20) {
-  console.log ('TRUE') ;
-} else if (y == 20) {
-  console.log ('TRUE');
-} else if (x + y <= 20) {
-   console.log  ('TRUE');
+if (x == 20 || y ==20 || x + y ==20) {
+  return true ;
 } else {
-     console.log ('FALSE')
+     return false;
 };
